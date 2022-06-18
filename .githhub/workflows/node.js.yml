@@ -1,11 +1,11 @@
-name: The progress Bar CI
+name: Progress Bar CI
 
 on:
   push:
     branches: master
   workflow_dispatch:
   schedule:
-    -cron: '/10 * * * *'
+    - cron: '5 * * * *'
 
 jobs:
   build:
