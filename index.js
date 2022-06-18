@@ -1,4 +1,4 @@
-const readme = `\ 
-I have updated this on ${new Date().toUTCString()}
+const readme = `\
+⏰ Updated on ${new Date().toUTCString()}
 `
-console.log(readme);
+console.log(readme)
